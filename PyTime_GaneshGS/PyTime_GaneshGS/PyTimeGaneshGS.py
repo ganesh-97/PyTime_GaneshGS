@@ -19,7 +19,7 @@ class PyTime:
             minutes = minute1 + minute2
             converted_time = self.calculateTime(hours,minutes)
         else:
-            return "Invalid Format"
+            converted_time = "Invalid Format"
         return converted_time
 
     def calculateTime(self,hours,minutes):
@@ -32,4 +32,6 @@ class PyTime:
         elif hours == "00":
             hours  = "12"
             converted_time = hours + ":" + minutes + " AM"
+        elif hours_in_int >= 24:
+            converted_time = "Invalid Format"
         return converted_time 
