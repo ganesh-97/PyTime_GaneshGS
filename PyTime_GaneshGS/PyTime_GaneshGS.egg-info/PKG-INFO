@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: PyTime-GaneshGS
+Version: 0.0.1
+Summary: package for time conversion
+Home-page: https://github.com/ganesh-97
+Author: Ganesh GS
+Author-email: ganeshgs1691997@gmail.com
+License: UNKNOWN
+Description: # PyTime_GaneshGS
+        
+        The Package which can convert an integer to required time format
+        
+        For example:
+        
+        200 can be converted to 02:00 AM 
+        1354 can be converted to 01:54 PM
+        
+        Allowed input types:
+        
+        String and Integer
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
