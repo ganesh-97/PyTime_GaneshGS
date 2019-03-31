@@ -5,10 +5,10 @@ with open("D:\PythonTime\README.txt", "r") as fh:
 
 setuptools.setup(
     name="PyTime_GaneshGS",
-    version="0.0.1",
+    version="0.0.2",
     author="Ganesh GS",
     author_email="ganeshgs1691997@gmail.com",
-    description="package for time conversion",
+    description="package for time conversion from minutes to Hours + minutes",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ganesh-97",
