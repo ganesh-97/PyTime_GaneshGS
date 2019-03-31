@@ -1,2 +1,2 @@
-from PyTime_GaneshGS import *
+from PyTimeGaneshGS import *
 
