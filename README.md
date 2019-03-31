@@ -1,18 +1,14 @@
+
 # PyTime_GaneshGS
-Package that can convert into proper time format given an integer or a string.
 
-#Supported Input Types
-1) Integer
-2) String
+The Package which can convert an integer (minutes) to required time format ( Hours + minutes )
 
-Sample Input
-1640
-"345"
-4500
-23456
+For example:
 
-Sample Output
-04:40 PM
-03:45 AM
-Invalid Format
-Invalid Format
+20 can be converted to 12:20 
+1240 can be converted to 20:40 
+0 can be converted to 12:00 AM
+
+Allowed input types:
+
+String and Integer
